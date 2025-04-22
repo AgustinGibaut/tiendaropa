@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopLeans</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+    <header>
+        <h1>shopLeans</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#envios">Envíos</a></li>
+                <li><a href="#stock">Stock</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div id="inicio" class="inicio">
+            <h1>Bienvenido a shopLeans</h1>
+            <p>Gran variedad de <strong>ropa en tu lugar favorito</strong>.</p>
+            <a href="#stock"><button>Comprar en la tienda</button></a>
+        </div>
+
+        <div id="nosotros" class="nosotros">
+            <h2><i class="fas fa-users icono-nosotros"></i> Sobre Nosotros</h2>
+        
+            <div class="bloque-nosotros">
+                <i class="fas fa-store icono-nosotros"></i>
+                <p>En <strong>shopLeans</strong> somos una tienda dedicada a ofrecer lo último en moda urbana y casual. 
+                Nos enfocamos en brindarte productos de alta calidad, con estilo y al mejor precio del mercado.</p>
+            </div>
+        
+            <div class="bloque-nosotros">
+                <i class="fas fa-bullseye icono-nosotros"></i>
+                <p>Nuestra misión es vestir tu día a día con confianza y personalidad.</p>
+            </div>
+        
+            <div class="bloque-nosotros">
+                <i class="fas fa-tshirt icono-nosotros"></i>
+                <p>Creemos que la moda es una forma de expresión, por eso cada prenda que seleccionamos refleja autenticidad, actitud y tendencia. 
+                Ya sea que busques un look relajado para el día a día o algo más audaz para destacar, tenemos lo que necesitás.</p>
+            </div>
+        
+            <div class="bloque-nosotros">
+                <i class="fas fa-truck-fast icono-nosotros"></i>
+                <p>Además, en <strong>shopLeans</strong> trabajamos constantemente para mejorar tu experiencia, ofreciendo envíos rápidos, atención personalizada y una comunidad donde la moda se vive a tu manera.</p>
+            </div>
+        </div>
+        
+
+        <div id="envios" class="envios">
+            <h2><i class="fas fa-shipping-fast icono-envios"></i> Envíos</h2>
+            <p><i class="fas fa-globe-americas icono-envios"></i> Realizamos envíos a todo el país. Podés elegir entre varias opciones:</p>
+            <ul>
+                <li><i class="fas fa-truck icono-envios"></i> Envío estándar (3-5 días hábiles)</li>
+                <li><i class="fas fa-bolt icono-envios"></i> Envío exprés (1-2 días hábiles)</li>
+                <li><i class="fas fa-store-alt icono-envios"></i> Retiro en tienda sin costo</li>
+            </ul>
+            <p><i class="fas fa-search icono-envios"></i> Seguimiento disponible para todos los pedidos.</p>
+        </div>
+        
+
+        <div id="stock" class="stock">
+            <h2><i class="fas fa-cogs"></i> Stock Disponible</h2>
+            <p>Contamos con una amplia variedad de productos para todos los gustos:</p>
+        
+            <div class="galeria-stock">
+                <div class="producto">
+                    <i class="fas fa-heart icono-stock"></i>
+                    <img src="images (2).jpeg" alt="Remera urbana">
+                    <h3>Remera Urbana</h3>
+                    <p>$5.000</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="producto">
+                    <i class="fas fa-cart-plus icono-stock"></i>
+                    <img src="images (2).jpeg" alt="Buzo oversize">
+                    <h3>Buzo Oversize</h3>
+                    <p>$9.000</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="producto">
+                    <i class="fas fa-star icono-stock"></i>
+                    <img src="images.jpeg" alt="Jogger gris">
+                    <h3>Jogger Gris</h3>
+                    <p>$7.500</p>
+                    <button>Comprar</button>
+                </div>
+                <!-- Puedes agregar más productos como desees -->
+            </div>
+        </div>
+        
+        
+            <p>¡No te pierdas nuestras promociones exclusivas!</p>
+        </div>
+        
+
+        <div id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <p>¿Tenés alguna duda? Escribinos, estamos para ayudarte.</p>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
